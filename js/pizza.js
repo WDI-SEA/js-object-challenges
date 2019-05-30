@@ -11,6 +11,14 @@ var menu = {
     Veggi: {
         topping:['pepper', 'onion', 'mushroom'],
         price: 16
+    },
+    Pep: {
+        topping: ['pep', 'cheese'],
+        price:16
+    },
+    Fourcheese: {
+        topping: ['Swiss', 'Cheddar', 'Black Pepper'],
+        prince: 16
     }
 }
 
