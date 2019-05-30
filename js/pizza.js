@@ -25,8 +25,13 @@ var menu = {
 
 
 //list all pizzas
+// the question said to use object methods, so there's this:
+//console.log(Object.keys(menu).join(', '));
 
-console.log(Object.keys(menu));
+//this is easier to read and nicer looking and stuff
+for (var pizza in menu) {
+    console.log(pizza)
+}
 
 //see if a pizza is on the menu
 var pizzaQuest = 'banana';
@@ -38,12 +43,13 @@ if (menu.hasOwnProperty(pizzaQuest)) {
 }
 
 //create a for...in loop that displays names and prices
-for (var key in menu) {
-    console.log(key + " " + menu[key].price);
-};
+//for (var key in menu) {
+//    console.log(key + " " + menu[key].price);
+//};
 
 // create a for...in loop that displays names, prices, and toppings
-for (var key2 in menu) {
-    console.log(key2 + " " + menu[key2].price);
-    console.log(menu[key2].toppings.join(', '))
-}
+for (var pizza in menu) {
+    console.log(pizza + "   " + menu[pizza].price);
+    console.log(menu[pizza].toppings.join(', '));
+    console.log();
+};
