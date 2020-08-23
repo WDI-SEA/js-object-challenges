@@ -1,15 +1,16 @@
-# JS Object Challenges
+# JS Object Challenges (SEIFX818)
 
 
 ## Getting Started
 
-If this is assigned as a lab, you can skip this part! Just do it in a [repl.it](https://repl.it/)
+Do all your code in a [repl.it](https://repl.it/).
+
+# Submitting your code
 
 * Fork and clone this repository
 * Create a file in the `js` subdirectory named `pizza.js`
-* Write your solution in that file
-* Run the file by typing `node js/pizza.js`
-
+* copy/paste your solution into that file
+* Commit and push your code, then make a pull request!
 ---
 
 ### Pizza Parlor!
